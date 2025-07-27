@@ -15,10 +15,12 @@ public class HelloController {
     
     
     // Basic greeting
-    @GetMapping("/hellgo")
+    @GetMapping("/hellgog")
     public String saykHello() {
         return "Hello, World!";
     }
+    
+    
 
     // Personalized greeting using path variable
     @GetMapping("/hello/{name}")
